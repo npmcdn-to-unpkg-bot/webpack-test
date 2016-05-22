@@ -17,4 +17,12 @@ module.exports = {
       { from: 'src/index.html' }
     ])
   ]
+  /*
+  ,
+  module: {
+    loaders: [
+      { test: /\.ts$/, loader: 'ts-loader' }
+    ]
+  }
+  */
 };
