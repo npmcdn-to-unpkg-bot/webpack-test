@@ -1,0 +1,3 @@
+interface Dog {
+    bark(): void;
+}

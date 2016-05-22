@@ -64,3 +64,4 @@ there exists an external concrete representation of a class.  Let's change
  show two barks, one from the global `dogInstance` we declared
  in our html script tag in javascript and one from the `d` instance
  of `Dog` we created ourselves. 
+
