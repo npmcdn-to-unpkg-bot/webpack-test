@@ -1,3 +1,6 @@
-var test = require('./test.ts');
 document.write('<p>entry.js says "Hello, world!"</p>');
-test();
+var jsmodule = require('./jsmodule');
+console.log('jsmodule:', JSON.stringify(jsmodule, null, 2));
+var tsmodule = require('./tsmodule');
+console.log('tsmodule:', JSON.stringify(tsmodule, null, 2));
+
