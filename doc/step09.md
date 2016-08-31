@@ -26,7 +26,7 @@ access it manually:
     <h1>Webpack Test Step 9</h1>
     <h2 id="js">'js' header</h2>
     <h2 id="ts">'ts' header</h2>
-    <script type="text/javascript" src="//npmcdn.com/jquery@2.2.4"></script>
+    <script type="text/javascript" src="//unpkg.com/jquery@2.2.4"></script>
     <script type="text/javascript" src="bundle.js"></script>
 
 And in `jsmodule/index.js` let's change it to use jquery and add the text
